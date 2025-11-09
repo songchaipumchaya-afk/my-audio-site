@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เสียงของฉัน</title>
+  <style>
+    body {
+      font-family: "Prompt", sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      background: linear-gradient(120deg, #a8edea, #fed6e3);
+    }
+    h1 {
+      color: #333;
+    }
+    audio {
+      width: 80%;
+      max-width: 400px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎵 ฟังเสียงของฉัน 🎶</h1>
+  <audio controls>
+    <source src="A.mp3" type="audio/mpeg">
+    เบราว์เซอร์ของคุณไม่รองรับการเล่นเสียง
+  </audio>
+</body>
+</html>
